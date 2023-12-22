@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import "./globals.css";
-import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,7 +39,7 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <div className='mx-auto max-w-2xl px-6'>
+        <div className='mx-auto px-6'>
         {header}
         {children}
         {footer}
