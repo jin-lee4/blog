@@ -24,7 +24,9 @@ const PostPage = (props: any) => {
     return (
         <div>
             <h1>{post.data.title}</h1>
+            <article className='prose lg:prose-xl'>
             <Markdown>{post.content}</Markdown>
+            </article>
         </div>
     );
 };
