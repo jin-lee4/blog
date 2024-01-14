@@ -17,13 +17,13 @@ export default function RootLayout({
 }) {
 
   const header = (
-    <header>
-      <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
+    <header className="bg-white py-10">
+      {/* <div className="text-center bg-slate-800 p-8 my-6 rounded-md"> 
         <Link href='/'>
           <h1 className='text-slate-100 font-bold'>jins blog</h1>
           </Link>
         <p className='text-slate-300'>welcome to my little corner of the world</p>
-      </div>
+      </div> */}
     </header>
   ); 
 
