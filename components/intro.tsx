@@ -1,11 +1,12 @@
 const intro = () => {
     return (
         <div className="py-5 space-y-3">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Hi, I'm Jin!
+            <h1>
+              modern manifesto
             </h1>
-            <p className='text-slate-600'>
-                description
+            <p>
+                hi, i'm jin. this site is a big and likely perpetual work in progress, but at least you get
+                to see what i'm thinking about!
             </p>
         </div>
     );

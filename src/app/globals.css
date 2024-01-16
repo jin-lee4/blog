@@ -1,7 +1,28 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-.section {
-    visibility: hidden;
+h1 {
+  font-family: "Frounces", serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.15rem;
+}
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.metadata {
+  color: slategray;
+  line-height: 1.75rem;
 }

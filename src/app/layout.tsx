@@ -18,10 +18,7 @@ export default function RootLayout({
   );
 
   const footer = (
-    <footer>
-      <div className="border-t border-slate-400 mt-6 py-6 text-center text-slate-400">
-        <h3>developed by jin</h3>
-      </div>
+    <footer className="py-6">
     </footer>
   );
 
@@ -29,9 +26,9 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <div className="mx-auto px-6">
+        <div className="">
           {header}
-          <div id="content">{children}</div>
+          <div>{children}</div>
           {footer}
         </div>
       </body>
