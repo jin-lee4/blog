@@ -6,7 +6,7 @@ const HomePage = () => {
   const introComponent = intro();
 
   return (
-    <div className="container mx-auto px-40">
+    <div className="container mx-auto">
       {introComponent}
       {contentComponent}
     </div>
