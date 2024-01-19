@@ -4,15 +4,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
+body {
+  background-color: #fff5ee;
+}
+
 h1 {
   font-family: "Frounces", serif;
   font-size: 4.5rem;
   font-weight: 500;
+  color: #41348a;
 }
 
-p {
+p, ul {
   font-family: "Questrial", sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.0rem;
+}
+
+header {
+  background-color: #fff5ee;
+}
+
+#nav-style {
+  margin-bottom: 0;
+}
+
+.link-style {
+  margin-right: 20px;
+}
+
+.link-style:hover {
+  color: #41348a;
+  text-decoration-line: underline;
 }
 
 .section-title {
@@ -20,6 +42,7 @@ p {
   font-size: 1.75rem;
   font-weight: 700;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .metadata {

@@ -10,8 +10,8 @@ const content = () => {
 
   return (
     <div className="directory">
-      <div className="section">
-        <h1 className="section-title">writing</h1>
+      <div className="section space">
+        <h2 className="section-title">writing</h2>
         <div className="grid grid-cols-1 gap-4">{postPreviews}</div>
       </div>
     </div>

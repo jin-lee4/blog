@@ -5,7 +5,7 @@ const PostPreview = (props: PostMetadata) => {
     return ( 
     <div className="inline-flex">
     <Link href={`/posts/${props.slug}`}>
-    <p>{props.title}</p>
+    <p className="link-style">{props.title}</p>
     </Link>
     <p className='metadata text-xs px-6'>// {props.date}</p>
   </div>

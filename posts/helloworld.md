@@ -12,9 +12,8 @@ Anyways, January feels like a good excuse to start the thing I put off last year
 
 **INS**
 
-- Dental hygiene. I haven’t been to the dentist in two years and I’d like to change that. Also, I’m going to make flossing fun again.
-- Giving people the things you care about. We’re bringing back romance this year.
-
+* Dental hygiene. I haven’t been to the dentist in two years and I’d like to change that. Also, I’m going to make flossing fun again.
+* Giving people the things you care about. We’re bringing back romance this year.
 * Gut health.
 * Observing the self.
 * Cold following people on Instagram.

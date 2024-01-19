@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Link from "next/link";
 
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const header = (
-    <header className="bg-white py-10">
+    <header className="container">
     </header>
   );
 
@@ -28,7 +29,7 @@ export default function RootLayout({
       <body>
         <div className="">
           {header}
-          <div>{children}</div>
+          <div className="container max-w-xl mx-auto">{children}</div>
           {footer}
         </div>
       </body>
