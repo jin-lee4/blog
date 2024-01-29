@@ -5,14 +5,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 body {
-  background-color: #fff5ee;
+  background-color: #f2f0e1;
 }
 
 h1 {
   font-family: "Frounces", serif;
   font-size: 4.5rem;
   font-weight: 500;
-  color: #41348a;
+  color: #b49fc2;
+}
+
+h2 {
+  font-family: "Frounces", serif;
+  font-size: 2.0rem;
+  font-weight: 500;
+  color: #b49fc2;
 }
 
 p, ul {
@@ -21,7 +28,7 @@ p, ul {
 }
 
 header {
-  background-color: #fff5ee;
+  background-color: #f2f0e1;
 }
 
 #nav-style {

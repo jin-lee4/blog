@@ -28,7 +28,7 @@ const PostPage = (props: any) => {
         <div className="container max-w-screen-xl mx-auto space-y-5 py-20">
             <div className='-space-y-1'>
             {navComponent}
-            <h1 className='text-green-800'>{post.data.title}</h1>
+            <h1>{post.data.title}</h1>
             </div>
             <p className="metadata">{post.data.date}</p>
             <article className='prose lg:prose-xl'>
