@@ -15,9 +15,6 @@ const nav = () => {
         <Link className="link-style" href="https://open.spotify.com/user/jinherondole?si=a78f4d4454b245fa">
           spotify
         </Link>
-        <Link className="link-style" href="">
-          twitter
-        </Link>
       </nav>
   );
 };

@@ -6,6 +6,7 @@
 
 body {
   background-color: #f2f0e1;
+  color: #525252;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h2 {
 p, ul {
   font-family: "Questrial", sans-serif;
   font-size: 1.0rem;
+  color: #4d4d4d;
 }
 
 header {
@@ -40,19 +42,28 @@ header {
 }
 
 .link-style:hover {
-  color: #41348a;
+  color: #8c7b96;
   text-decoration-line: underline;
 }
 
 .section-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Frounces", serif;
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 500;
   padding-bottom: 20px;
   padding-top: 20px;
+  color: #d6ad45;
 }
 
 .metadata {
-  color: slategray;
+  color: #c2bbc7;
   line-height: 1.75rem;
+}
+
+ol, li {
+  line-height: 2.0rem;
+}
+
+b {
+  color:#8c7b96;
 }

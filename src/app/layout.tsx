@@ -4,7 +4,7 @@ import Link from "next/link";
 
 
 export const metadata: Metadata = {
-  title: "blawg",
+  title: "working title...",
   description: "developed by jin",
 };
 

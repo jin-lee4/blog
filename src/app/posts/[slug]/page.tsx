@@ -32,7 +32,7 @@ const PostPage = (props: any) => {
             </div>
             <p className="metadata">{post.data.date}</p>
             <article className='prose lg:prose-xl'>
-            <Markdown className="grid grid-cols-1 gap-4">{post.content}</Markdown>
+            <Markdown className="blog-post">{post.content}</Markdown>
             </article>
         </div>
     );
