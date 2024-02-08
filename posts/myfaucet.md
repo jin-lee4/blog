@@ -1,7 +1,7 @@
 ---
 title: "my faucet"
 subtitle: "last november, emma held an intervention for me."
-date: "2024-02-04"
+date: "2024-02-08"
 ---
 
 **Last November, Emma held an intervention for me.** In the midst of the ongoing Palestinian genocide and other soul-crushing global events, she felt like I didn’t care. Emma was kind of right. 
