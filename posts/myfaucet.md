@@ -1,6 +1,6 @@
 ---
-title: "My Faucet"
-subtitle: "the first day of winter"
+title: "my faucet"
+subtitle: "last november, emma held an intervention for me."
 date: "2024-02-04"
 ---
 

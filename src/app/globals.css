@@ -27,6 +27,7 @@ p, ul {
   font-family: "Questrial", sans-serif;
   font-size: 1.0rem;
   color: #4d4d4d;
+  text-transform: lowercase;
 }
 
 header {
