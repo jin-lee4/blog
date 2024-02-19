@@ -9,8 +9,8 @@ const nav = () => {
         <Link className="link-style" href="/about">
           about
         </Link>
-        <Link className="link-style" href="/work">
-          work
+        <Link className="link-style" href="https://www.portfolio.jinlee.info">
+          portfolio
         </Link>
         <Link className="link-style" href="https://open.spotify.com/user/jinherondole?si=a78f4d4454b245fa">
           spotify
