@@ -9,7 +9,7 @@ const HomePage = () => {
   const introComponent = intro();
 
   return (
-    <div className="container mx-auto max-w-screen-xl space-y-5 py-20">
+    <div className="container space-y-5 py-20">
       <div className="-space-y-1">
       {navComponent}
       {introComponent}
