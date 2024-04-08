@@ -4,7 +4,7 @@ subtitle: "I am happy to announce that..."
 date: "2024-04-08"
 ---
 
-Hi everyone! After months of a gruelling job search, I am happy to announce that I am still unemployed! I'd like to thank all those who ghosted me and my friends who entertained my "it's not to hear back yet, right?" delusions.
+Hi everyone! After months of a gruelling job search, I am happy to announce that I am still unemployed! I'd like to thank all those who ghosted me and my friends who entertained my "it's not too late to hear back yet, right?" delusions.
 
 After repeating "if I get this job, I'm going to write a LinkedIn post" for months, I did not get a job and I am not going to post on LinkedIn. I'll probably be blacklisting LinkedIn for a while. I sort of abandoned this blog after making some heavy proclamations, but that's only because I've been busy keeping my promises.
 
