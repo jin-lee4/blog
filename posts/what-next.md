@@ -1,5 +1,5 @@
 ---
-title: "what's next?"
+title: "What's next?"
 subtitle: "I am happy to announce that..."
 date: "2024-04-08"
 ---
@@ -10,15 +10,15 @@ After repeating "if I get this job, I'm going to write a LinkedIn post" for mont
 
 Jin's Corporate Winter 2024 Wrapped:
 
--   17 job applications
+- 17 job applications
 
--   4 coffee chats
+- 4 coffee chats
 
--   3 hackathons
+- 3 hackathons
 
--   3 networking events
+- 3 networking events
 
--   2 interviews
+- 2 interviews
 
 Rookie numbers, but each one came with obsession, a week's recovery, and a rollercoaster of emotions.
 
@@ -30,18 +30,18 @@ Next is the summer of research, learning, and cultivating. In some literal ways 
 
 Other things I did this winter:
 
--   Showed unfiltered enthusiasm when trying to become friends with someone
+- Showed unfiltered enthusiasm when trying to become friends with someone
 
--   Started my cardio mentality monster month (today is day 12/31!)
+- Started my cardio mentality monster month (today is day 12/31!)
 
--   Listened to my body and realized that a deep breath through the nose can be something so healing
+- Listened to my body and realized that a deep breath through the nose can be something so healing
 
--   A song a day playlists 
+- A song a day playlists
 
--   Went to the dentist for the first time in 2+ years
+- Went to the dentist for the first time in 2+ years
 
--   Rewatched Modern Family 
+- Rewatched Modern Family
 
--   Hit 100 contributions for this year on GitHub!
+- Hit 100 contributions for this year on GitHub!
 
--   Enjoyed my last few months in the Yellow House with my roommates <3 
+- Enjoyed my last few months in the Yellow House with my roommates <3

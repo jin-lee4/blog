@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
-
+import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "working title...",
-  description: "developed by jin",
+  title: "jinlee.space",
 };
 
 export default function RootLayout({
@@ -13,23 +12,24 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const header = (
-    <header className="container">
-    </header>
-  );
+  const header = <header className="container"></header>;
 
-  const footer = (
-    <footer className="py-6">
-    </footer>
-  );
+  const footer = <footer className="py-6"></footer>;
 
   return (
     <html lang="en">
-      <head />
+      <Head>
+        <link
+          href="https://api.fontshare.com/v2/css?f[]=gambarino@400&f[]=switzer@300,301,600,601&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body>
         <div className="">
           {header}
-          <div className="container max-w-xl mx-auto">{children}</div>
+          <div className="m-20 flex flex-col justify-center justify-items-center">
+            {children}
+          </div>
           {footer}
         </div>
       </body>

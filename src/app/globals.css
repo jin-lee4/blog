@@ -4,6 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
+html {
+  color: #000;
+  background-color: #fff;
+  font-family: "Switzer", sans-serif;
+}
+
 .container {
   padding: calc(8px + 1.5625vw);
 }
@@ -20,35 +26,21 @@
   }
 }
 
-body {
-  background-color: #f2f0e1;
-  color: #525252;
-}
-
-h1 {
-  font-family: "Frounces", serif;
+h1,
+h2 {
+  font-family: "Gambarino", serif;
   font-size: 4.5rem;
   font-weight: 500;
-  color: #b49fc2;
 }
 
 h2 {
-  font-family: "Frounces", serif;
   font-size: 2rem;
-  font-weight: 500;
-  color: #b49fc2;
 }
 
 p,
 ul {
-  font-family: "Questrial", sans-serif;
   font-size: 1rem;
   color: #4d4d4d;
-  text-transform: lowercase;
-}
-
-header {
-  background-color: #f2f0e1;
 }
 
 #nav-style {
@@ -60,29 +52,11 @@ header {
 }
 
 .link-style:hover {
-  color: #8c7b96;
+  color: #0c92ff;
   text-decoration-line: underline;
 }
 
-.section-title {
-  font-family: "Frounces", serif;
-  font-size: 1.75rem;
-  font-weight: 500;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  color: #d6ad45;
-}
-
 .metadata {
-  color: #c2bbc7;
+  color: #cc6fa5;
   line-height: 1.75rem;
-}
-
-ol,
-li {
-  line-height: 2rem;
-}
-
-b {
-  color: #8c7b96;
 }

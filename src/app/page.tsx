@@ -1,20 +1,61 @@
 import intro from "../../components/intro";
 import content from "../../components/content";
-import nav from '../../components/nav';
+import nav from "../../components/nav";
+import Link from "next/link";
+import getPostMetaData from "../../components/getPostMetadata";
+import PostPreview from "../../components/PostPreview";
 
 const HomePage = () => {
-
-  const navComponent = nav();
-  const contentComponent = content();
-  const introComponent = intro();
+  const postMetaData = getPostMetaData();
+  const postPreviews = postMetaData.map((post) => (
+    <PostPreview key={post.slug} {...post} />
+  ));
 
   return (
-    <div className="container space-y-5 py-20">
-      <div className="-space-y-1">
-      {navComponent}
-      {introComponent}
+    <div className=" space-y-5 py-20 w-full">
+      <h1>Hi, I'm Jin!</h1>
+      <p>
+        This space is currently under construction as I play around and put my
+        vision into fruition (and also find said vision).
+      </p>
+      <p>
+        For now, <b>find me elsewhere:</b>
+      </p>
+      <ul>
+        <li>
+          <Link
+            className="link-style"
+            href="https://open.spotify.com/user/jinherondole?si=a78f4d4454b245fa"
+          >
+            Spotify
+          </Link>
+        </li>
+        <li>
+          <Link className="link-style" href="https://x.com/chocoganache444">
+            Twitter
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="link-style"
+            href="https://www.linkedin.com/in/jin-leebc/"
+          >
+            LinkedIn
+          </Link>
+        </li>
+        <li>
+          <Link className="link-style" href="https://portfolio.jinlee.info/">
+            Portfolio
+          </Link>
+        </li>
+      </ul>
+      {/* <div className="space-y-5">
+        <p>
+          <b>Writing:</b>
+        </p>
+        <div className="grid grid-cols-1">{postPreviews}</div>
       </div>
-      {contentComponent}
+      <p>See you soon!</p> */}
     </div>
   );
 };
