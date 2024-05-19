@@ -1,15 +1,13 @@
-
 const intro = () => {
-    return (
-        <div className="space-y-3">
-            <h1>
-              working title...
-            </h1>
-            <p>
-                hi, i'm jin. this site is a big and perpetual work in progress but it's going to be lots of fun :-)
-            </p>
-        </div>
-    );
+  return (
+    <div className="space-y-3">
+      <h1>Hi, I'm Jin!</h1>
+      <p>
+        This space is a perpetual work in progress as I try to practice
+        shameless self expression and all sorts of tools.
+      </p>
+    </div>
+  );
 };
 
 export default intro;

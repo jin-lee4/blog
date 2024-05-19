@@ -1,8 +1,10 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Questrial&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+html {
+  font-family: "Switzer", sans-serif;
+}
 
 .container {
   padding: calc(8px + 1.5625vw);
@@ -21,34 +23,27 @@
 }
 
 body {
-  background-color: #f2f0e1;
   color: #525252;
+  font-family: "Switzer", sans-serif;
 }
 
-h1 {
-  font-family: "Frounces", serif;
+h1,
+h2 {
+  font-family: "Gambarino", serif;
   font-size: 4.5rem;
   font-weight: 500;
-  color: #b49fc2;
+  color: #000;
 }
 
 h2 {
-  font-family: "Frounces", serif;
   font-size: 2rem;
-  font-weight: 500;
-  color: #b49fc2;
 }
 
 p,
 ul {
-  font-family: "Questrial", sans-serif;
   font-size: 1rem;
   color: #4d4d4d;
-  text-transform: lowercase;
-}
-
-header {
-  background-color: #f2f0e1;
+  text-transform: none;
 }
 
 #nav-style {
@@ -60,17 +55,7 @@ header {
 }
 
 .link-style:hover {
-  color: #8c7b96;
   text-decoration-line: underline;
-}
-
-.section-title {
-  font-family: "Frounces", serif;
-  font-size: 1.75rem;
-  font-weight: 500;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  color: #d6ad45;
 }
 
 .metadata {
