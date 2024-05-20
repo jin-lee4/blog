@@ -1,28 +1,24 @@
-import nav from "../../../components/nav";
+import Navbar from "../../../components/Navbar";
+import Link from 'next/link'
 
 const About = () => {
-  const navComponent = nav();
-
   return (
-    <div className="container mx-auto max-w-screen-xl space-y-5 py-20">
+    <div className="space-y-5">
       <div className="-space-y-1">
-        {navComponent}
-        <h1>about</h1>
+        <Navbar />
+        <h1>About</h1>
         <div>
-        <p>
-          hi, i'm jin! i'm a fifth year student at the university of british columbia studying cognitive systems. i'm particularly interested in thinking and learning about the reflexive relationship between emerging technologies, namely ai, and societal / systemic structures. in extension, i love learning about hci and ux research!
-        </p>
-        <p>
-          <br></br>in my free time (most of the time), i like to consume lots of media, cook indulgent meals, go on walks, and be silly with  friends. 
-        </p>
-        <p>
-          <br></br>i am currently:
-          <ul><li><b>reading: </b>either/or by elif batuman <i>&</i> for the love of men by elizabeth plank</li></ul>
-          <ul><li><b>listening to: </b>better oblivion community center</li></ul>
-          <ul><li><b>watching: </b>modern family...</li></ul>
-          <ul><li><b>learning: </b>how to network</li></ul>
-          <ul><li><b>working on: </b>living each day with intention and challenging myself / this website!</li></ul>
-        </p>
+          <p>
+            Hello! I'm Jin, a 5th year student at UBC studying Cognitive
+            Systems. I'm particularly interested in the reflexive relationship
+            between emerging technologies and culture / society. In extension, I
+            love learning about HCI research and social theory.
+          </p>
+          <p>
+            <br></br>
+            Most of the time, I'm consuming lots of <Link href="/media">media</Link>, cooking indulgent
+            meals, on walks, or being silly with friends.
+          </p>
         </div>
       </div>
     </div>

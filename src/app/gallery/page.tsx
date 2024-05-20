@@ -1,4 +1,4 @@
-import nav from "../../../components/nav";
+import nav from "../../../components/Navbar";
 
 const Gallery = () => {
   const navComponent = nav();

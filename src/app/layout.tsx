@@ -27,7 +27,7 @@ export default function RootLayout({
       <body>
         <div className="">
           {header}
-          <div className="m-20 flex flex-col justify-center justify-items-center">
+          <div className="mx-20 flex flex-col justify-center justify-items-center">
             {children}
           </div>
           {footer}

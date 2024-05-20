@@ -1,6 +1,6 @@
-import intro from "../../components/intro";
-import content from "../../components/content";
-import nav from "../../components/nav";
+import Intro from "../../components/Intro";
+import Content from "../../components/HomeContent";
+import Nav from "../../components/Navbar";
 import Link from "next/link";
 import getPostMetaData from "../../components/getPostMetadata";
 import PostPreview from "../../components/PostPreview";
@@ -12,8 +12,13 @@ const HomePage = () => {
   ));
 
   return (
-    <div className=" space-y-5 py-20 w-full">
-      <h1>Hi, I'm Jin!</h1>
+    <div className="space-y-5 w-full">
+      <div className="-space-y-1">
+      <Nav />
+      <Intro />
+      </div>
+      <Content />
+      {/* <h1>Hi, I'm Jin!</h1>
       <p>
         This space is currently under construction as I play around and put my
         vision into fruition (and also find said vision).
@@ -48,7 +53,7 @@ const HomePage = () => {
             Portfolio
           </Link>
         </li>
-      </ul>
+      </ul> */}
       {/* <div className="space-y-5">
         <p>
           <b>Writing:</b>
