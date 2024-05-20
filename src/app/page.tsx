@@ -1,15 +1,8 @@
 import Intro from "../../components/Intro";
 import Content from "../../components/HomeContent";
 import Nav from "../../components/Navbar";
-import Link from "next/link";
-import getPostMetaData from "../../components/getPostMetadata";
-import PostPreview from "../../components/PostPreview";
 
 const HomePage = () => {
-  const postMetaData = getPostMetaData();
-  const postPreviews = postMetaData.map((post) => (
-    <PostPreview key={post.slug} {...post} />
-  ));
 
   return (
     <div className="space-y-5 w-full">
