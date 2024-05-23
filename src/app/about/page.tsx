@@ -6,7 +6,7 @@ const About = () => {
     <div className="space-y-5">
       <div className="-space-y-1">
         <Navbar />
-        <h1>About</h1>
+        <h2 className="page-title">About</h2>
         <div>
           <p>
             Hello! I'm Jin, a 5th year student at UBC studying Cognitive

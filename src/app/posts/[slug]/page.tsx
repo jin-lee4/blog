@@ -31,8 +31,8 @@ const PostPage = (props: any) => {
         <h2 className={style.title}>{post.data.title}</h2>
       </div>
       <p className="metadata">{post.data.date}</p>
-      <article className="w-full">
-        <Markdown className="blog-post">{post.content}</Markdown>
+      <article className="w-full mt-5">
+        <Markdown className="blog-post space-y-3">{post.content}</Markdown>
       </article>
     </div>
   );

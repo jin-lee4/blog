@@ -10,7 +10,8 @@ const HomeContent = () => {
   ));
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 mt-5">
+      <PhotoGrid/>
       <div className="space-y-3">
         <h2>Currently</h2>
         <CurrentlySection />
@@ -22,12 +23,6 @@ const HomeContent = () => {
       <div className="space-y-3">
         <h2 className="">Writing</h2>
         <div className="">Coming soon!</div>
-      </div>
-      <div className="space-y-3">
-        <h2>Photography</h2>
-        <div>
-          Coming soon!
-        </div>
       </div>
     </div>
   );

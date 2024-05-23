@@ -7,7 +7,7 @@ export default function Media() {
     <div className="space-y-5">
       <div className="-space-y-1">
         <Navbar />
-        <h1>Media</h1>
+        <h2 className="page-title">Media</h2>
         <p>
           Collect more pieces of me through my favorite media. Always down to
           discuss them too!

@@ -1,126 +1,29 @@
 import Image from "next/image";
 
 export default function PhotoGrid() {
-    const img = '../images/polaroid.JPG'
-
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div className="grid gap-4">
-        <div>
+    <div className="grid lg:grid-cols-3 gap-4 md:grid-cols-1 items-center w-full">
           <Image
-            className="h-auto max-w-full rounded-lg"
-            src="/img"
+            className="rotate-12 h-auto w-full"
+            src="/images/1.png"
             alt=""
-            width="300"
-            height="300"
+            width='500'
+            height='0'
           />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src="/img"
+        <Image
+            className="rotate-3 max-w-full h-auto"
+            src="/images/2.png"
             alt=""
-            width="300"
-            height="300"
+            width="500"
+            height="100"
           />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
+        <Image
+            className="-rotate-12 w-full h-auto"
+            src="/images/4.png"
             alt=""
-            width="300"
-            height="300"
+            width="500"
+            height="0"
           />
-        </div>
       </div>
-      <div className="grid gap-4">
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-      </div>
-      <div className="grid gap-4">
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-      </div>
-      <div className="grid gap-4">
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src=""
-            alt=""
-            width="300"
-            height="300"
-          />
-        </div>
-      </div>
-    </div>
   );
 }

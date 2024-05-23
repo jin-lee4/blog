@@ -8,6 +8,8 @@ html {
   color: rgb(71, 71, 71)d4d;
   background-color: #f5f5ec;
   font-family: "Switzer", sans-serif;
+  font-size: 1rem;
+
 }
 
 .container {
@@ -39,9 +41,14 @@ h2 {
   color: #6a7d93;
 }
 
-p,
+.page-title {
+  font-size: 2.5rem;
+}
+
+
 ul {
-  font-size: 1rem;
+  list-style: circle;
+  margin-left: 2em;
 }
 
 #nav {
@@ -52,12 +59,7 @@ ul {
   margin-right: 20px;
 }
 
-.nav-link:hover {
-  color: #6a7d93;
-  text-decoration-line: underline;
-}
-
-Link:hover {
+.nav-link:hover, Link:hover {
   color: #6a7d93;
   text-decoration-line: underline;
 }

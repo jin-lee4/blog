@@ -9,6 +9,9 @@ const Navbar = () => {
         <Link className="nav-link" href="/about">
           About
         </Link>
+        <Link className="nav-link" href="/photography">
+          Photography
+        </Link>
         <Link className="nav-link" href="https://portfolio.jinlee.info/">
           Portfolio
         </Link>
