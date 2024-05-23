@@ -53,6 +53,7 @@ ul {
 
 #nav {
   margin-bottom: 0;
+  overflow-wrap: anywhere;
 }
 
 .nav-link {

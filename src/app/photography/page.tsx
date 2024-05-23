@@ -8,7 +8,7 @@ export default function Photography() {
         <Navbar />
         <h2 className="page-title">Photography</h2>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
         <div className="grid gap-4">
           <div>
             <Image
