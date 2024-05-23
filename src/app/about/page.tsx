@@ -3,10 +3,11 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <div className="space-y-5">
-      <div className="-space-y-1">
+    <div className="space-y-3">
+      <div className="space-y-3">
         <Navbar />
         <h2 className="page-title">About</h2>
+        </div>
         <div>
           <p>
             Hello! I'm Jin, a 5th year student at UBC studying Cognitive
@@ -21,7 +22,6 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
   );
 };
 
