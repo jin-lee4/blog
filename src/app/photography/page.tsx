@@ -8,7 +8,7 @@ export default function Photography() {
         <Navbar />
         <h2 className="page-title">Photography</h2>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div className="grid gap-4">
           <div>
             <Image
@@ -97,7 +97,7 @@ export default function Photography() {
           </div>
         </div>
         {/* formatting is weird */}
-        {/* <div className="grid gap-4">
+        <div className="grid gap-4">
           <div>
             <Image
               className="h-auto max-w-full "
@@ -125,8 +125,8 @@ export default function Photography() {
               height={500}
             />
           </div>
-        </div> */}
-        {/* <div className="grid gap-4">
+        </div>
+        <div className="grid gap-4">
           <div>
             <Image
               className="h-auto max-w-full "
@@ -154,7 +154,76 @@ export default function Photography() {
               height={500}
             />
           </div>
-        </div> */}
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <Image
+              className="h-auto max-w-full "
+              src="/images/21.jpg"
+              alt=""
+              width={500}
+              height={500}
+            />
+          </div>
+          <div>
+            <Image
+              className="h-auto max-w-full "
+              src="/images/22.jpg"
+              alt=""
+              width={500}
+              height={500}
+            />
+          </div>
+          <div>
+            <Image
+              className="h-auto max-w-full "
+              src="/images/23.jpg"
+              alt=""
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <Image
+              className="h-auto max-w-full "
+              src="/images/24.jpg"
+              alt=""
+              width={500}
+              height={500}
+            />
+          </div>
+          <div>
+            <Image
+              className="h-auto max-w-full "
+              src="/images/26.jpg"
+              alt=""
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <Image
+              className="h-auto max-w-full "
+              src="/images/28.jpg"
+              alt=""
+              width={500}
+              height={500}
+            />
+          </div>
+          <div>
+            <Image
+              className="h-auto max-w-full "
+              src="/images/27.jpg"
+              alt=""
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
