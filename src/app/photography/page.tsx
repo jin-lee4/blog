@@ -51,7 +51,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/9.png"
+              src="/images/23.jpg"
               alt=""
               width={500}
               height={500}
@@ -101,7 +101,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/20.png"
+              src="/images/19.png"
               alt=""
               width={500}
               height={500}
@@ -110,7 +110,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/15.png"
+              src="/images/27.JPG"
               alt=""
               width={500}
               height={500}
@@ -139,7 +139,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/18.png"
+              src="/images/28.JPG"
               alt=""
               width={500}
               height={500}
@@ -148,7 +148,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/19.png"
+              src="/images/20.png"
               alt=""
               width={500}
               height={500}
@@ -177,7 +177,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/23.jpg"
+              src="/images/9.png"
               alt=""
               width={500}
               height={500}
@@ -208,7 +208,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/28.JPG"
+              src="/images/18.png"
               alt=""
               width={500}
               height={500}
@@ -217,7 +217,7 @@ export default function Photography() {
           <div>
             <Image
               className="h-auto max-w-full "
-              src="/images/27.JPG"
+              src="/images/15.png"
               alt=""
               width={500}
               height={500}
