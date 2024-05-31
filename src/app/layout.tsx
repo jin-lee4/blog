@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "jinlee.space",
@@ -25,6 +26,7 @@ export default function RootLayout({
         />
       </Head>
       <body>
+        <Analytics />
         <div className="">
           {header}
           <div className="mx-20 flex flex-col justify-center justify-items-center">
