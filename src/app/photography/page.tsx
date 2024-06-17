@@ -4,7 +4,7 @@ import Navbar from "../../../components/Navbar";
 export default function Photography() {
   return (
     <div className="space-y-3">
-      <div className="-space-y-1">
+      <div className="space-y-3">
         <Navbar />
         <h2 className="page-title">Photography</h2>
       </div>

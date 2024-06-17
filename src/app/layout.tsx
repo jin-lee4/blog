@@ -29,7 +29,7 @@ export default function RootLayout({
         <Analytics />
         <div className="">
           {header}
-          <div className="mx-20 flex flex-col justify-center justify-items-center">
+          <div className="mx-10 flex flex-col justify-center justify-items-center">
             {children}
           </div>
           {footer}

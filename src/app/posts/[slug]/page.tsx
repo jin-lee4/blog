@@ -31,7 +31,7 @@ const PostPage = (props: any) => {
         <h2 className="page-title">Reflections</h2>
       </div>
       <div className="-space-y-1 text-gray-400">
-        <h2 className={style.title}>{post.data.title}</h2>
+        <h2 className="">{post.data.title}</h2>
         <p className="">{post.data.date}</p>
       </div>
       <article className="w-full mt-3">

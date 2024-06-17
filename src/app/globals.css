@@ -9,23 +9,10 @@ html {
   background-color: #f5f5ec;
   font-family: "Switzer", sans-serif;
   font-size: 1rem;
-
 }
 
 .container {
   padding: calc(8px + 1.5625vw);
-}
-
-@media (min-width: 600px) {
-  .container {
-    padding: calc(8px + 1.5625vw);
-  }
-}
-
-@media (min-width: 900px) {
-  .container {
-    padding-left: 0px;
-  }
 }
 
 h1,
@@ -36,19 +23,22 @@ h2 {
   color: #153357
 }
 
-h2 {
-  font-size: 1.6rem;
-  color: #6a7d93;
-}
-
 .page-title {
   font-size: 2.5rem;
 }
 
-
 ul {
   list-style: circle;
   margin-left: 2em;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
 }
 
 #nav {
@@ -65,4 +55,29 @@ ul {
   text-decoration-line: underline;
 }
 
+blockquote {
+  margin-left: 2em;
+  background: #f5f5f2;
+  border-left: 10px solid #f0d58b;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  color: #4d4d4d;
+}
 
+/* Styles for section headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Styles for the "Reflections" section */
+.reflections {
+  margin-top: 30px;
+}
+
+.post-preview .date {
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
