@@ -3,6 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 import Head from "next/head";
 import Nav from "../../components/Nav";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "jinlee.space",
@@ -26,6 +27,7 @@ export default function RootLayout({
         />
       </Head>
       <body>
+        <Analytics />
         <div className="">
           {header}
           <div className="flex flex-col justify-center items-center w-2/6 mx-auto space-y-2.5">

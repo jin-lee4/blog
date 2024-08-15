@@ -1,5 +1,5 @@
 ---
-title: "My faucet"
+title: "My Faucet"
 subtitle: "last november, emma held an intervention for me."
 date: "2024-02-08"
 ---

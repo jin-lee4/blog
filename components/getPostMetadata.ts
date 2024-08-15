@@ -18,7 +18,10 @@ const getPostMetaData = (): PostMetadata[] => {
         slug: fileName.replace('.md', ''),
       };
      });
-  
+
+     // Sort posts by date in descending order
+     posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
      return posts;
   };
 
