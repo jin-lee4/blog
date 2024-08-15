@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Now = () => {
   return (
     <div className="w-full space-y-6">
@@ -21,8 +23,11 @@ const Now = () => {
         <h3>Projects</h3>
         <ol>
           <li>
-            ruleaid - A RAG tool to help administrators develop AI policies for
-            their organizations
+            <Link href="https://github.com/jin-lee4/kg-rag.git" target="_blank">
+              ruleaid
+            </Link>{" "}
+            - A RAG tool to help administrators develop AI policies for their
+            organizations
           </li>
           <li>Writing here!</li>
           <li>
@@ -33,6 +38,7 @@ const Now = () => {
         </ol>
         <h3>Reading list</h3>
         <ol>
+          <li>Kitchen Confidential by Anthony Bourdain (audiobook)</li>
           <li>Crip Negativity by J. Logan Smilges</li>
           <li>12 Bytes by Jeanette Winterson</li>
           <li>Either/Or by Elif Batuman</li>
@@ -43,8 +49,11 @@ const Now = () => {
           <li>Dutifully going to the gym and running 5-6 days a week</li>
           <li>Trying recipes focused on eating whole foods</li>
           <li>
-            Meeting the first Monday of each month with Matthew to set goals and
-            reflect
+            Meeting the first Monday of each month with{" "}
+            <Link href="https://matthewjl.xyz/" target="_blank">
+              Matthew
+            </Link>
+            to set goals and reflect
           </li>
           <li>Establishing long-term financial investments</li>
           <li>

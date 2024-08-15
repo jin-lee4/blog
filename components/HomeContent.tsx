@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HomeContent = () => {
   return (
     <div className="space-y-2.5 mt-9">
@@ -12,7 +14,12 @@ const HomeContent = () => {
       <div className="space-y-2.5">
         <h2>Let's connect!</h2>
         <ul>
-          <li>Twitter: @chocoganache444</li>
+          <li>
+            Twitter:{" "}
+            <Link href="https://x.com/chocoganache444" target="_blank">
+              @chocoganache444
+            </Link>
+          </li>
           <li>Email: leejinbc [at] gmail [dot] com</li>
         </ul>
       </div>
