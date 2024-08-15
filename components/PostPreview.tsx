@@ -3,11 +3,11 @@ import { PostMetadata } from "./PostMetadata";
 
 const PostPreview = (props: PostMetadata) => {
   return (
-    <div className="inline-flex">
+    <div className="block post-preview">
       <Link href={`/posts/${props.slug}`}>
         <p className="">{props.title}</p>
       </Link>
-      <p className="metadata text-xs px-6"> {props.date}</p>
+      <p className="date">{new Date(props.date).toLocaleDateString()}</p>
     </div>
   );
 };

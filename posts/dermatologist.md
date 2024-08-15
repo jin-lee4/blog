@@ -1,5 +1,5 @@
 ---
-title: "Feeling existential at the dermatologist"
+title: "Feeling Existential at the Dermatologist"
 subtitle: "My trips to Korea visiting family are usually accompanied by a visit to the dermatologist"
 date: "2024-05-23"
 ---

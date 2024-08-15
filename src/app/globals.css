@@ -1,8 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Questrial&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 .container {
   padding: calc(8px + 1.5625vw);
@@ -78,4 +76,14 @@ ol {
   align-items: flex-start;
   gap: 20px;
   align-self: stretch;
+}
+
+
+blockquote {
+  margin-left: 2em;
+  background: #f5f5f2;
+  border-left: 10px solid #f0d58b;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  color: #4d4d4d;
 }
