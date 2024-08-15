@@ -1,59 +1,83 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Questrial&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-
-html {
-  color: rgb(71, 71, 71)d4d;
-  background-color: #f5f5ec;
-  font-family: "Switzer", sans-serif;
-  font-size: 1rem;
-}
 
 .container {
   padding: calc(8px + 1.5625vw);
 }
 
+@media (min-width: 600px) {
+  .container {
+    padding: calc(8px + 1.5625vw);
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    padding-left: 0px;
+  }
+}
+
 h1,
 h2 {
-  font-family: "Gambarino", serif;
-  font-size: 4.5rem;
-  font-weight: 500;
-  color: #153357
+  font-family: "Sentient", serif;
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: "Sentient", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  color: #000;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  font-size: 1rem;
+}
+
+#post-title {
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.nav-text {
+  font-size: 1rem;
 }
 
 .page-title {
   font-size: 2.5rem;
 }
 
-ul {
+ul,
+ol {
   list-style: circle;
   margin-left: 2em;
 }
 
-ol {
-  list-style-type: decimal;
-  margin-left: 20px;
-}
-
-ol li {
-  margin-bottom: 10px;
-}
-
 #nav {
-  margin-bottom: 0;
-  overflow-wrap: anywhere;
+  display: flex;
+  padding: 10px 0;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
 }
 
-.nav-link {
-  margin-right: 20px;
-}
-
-.nav-link:hover, Link:hover {
-  color: #6a7d93;
-  text-decoration-line: underline;
-}
 
 blockquote {
   margin-left: 2em;
@@ -62,22 +86,4 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   color: #4d4d4d;
-}
-
-/* Styles for section headings */
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-}
-
-/* Styles for the "Reflections" section */
-.reflections {
-  margin-top: 30px;
-}
-
-.post-preview .date {
-  font-size: 12px;
-  color: #7f8c8d;
-  margin-bottom: 10px;
 }
