@@ -1,15 +1,12 @@
 import Image from "next/image";
-import Navbar from "../../../components/Navbar";
+import Navbar from "../../../components/Nav";
 
 export default function Photography() {
   return (
-    <div className="space-y-3">
-      <div className="-space-y-1">
-        <Navbar />
-        <h2 className="page-title">Photography</h2>
-      </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <div className="grid gap-4">
+    <div className="space-y-6">
+      <h1>Photography</h1>
+      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid gap-2.5">
           <div>
             <Image
               className="h-auto max-w-full"

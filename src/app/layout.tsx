@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import Head from "next/head";
+import Nav from "../../components/Nav";
 
 export const metadata: Metadata = {
   title: "jinlee.space",
@@ -20,14 +21,15 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link
-          href="https://api.fontshare.com/v2/css?f[]=gambarino@400&f[]=switzer@300,301,600,601&display=swap"
+          href="https://api.fontshare.com/v2/css?f[]=sentient@200,201,300,301,400,401,500,501,700,701&display=swap"
           rel="stylesheet"
         />
       </Head>
       <body>
         <div className="">
           {header}
-          <div className="mx-20 flex flex-col justify-center justify-items-center">
+          <div className="flex flex-col justify-center items-center w-2/6 mx-auto space-y-2.5">
+            <Nav />
             {children}
           </div>
           {footer}

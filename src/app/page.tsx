@@ -1,14 +1,10 @@
 import Intro from "../../components/Intro";
 import Content from "../../components/HomeContent";
-import Nav from "../../components/Navbar";
+import Nav from "../../components/Nav";
 
 const HomePage = () => {
   return (
-    <div className="space-y-5 w-full">
-      <div className="space-y-1">
-        <Nav />
-        <Intro />
-      </div>
+    <div className="w-full text-justify">
       <Content />
     </div>
   );
