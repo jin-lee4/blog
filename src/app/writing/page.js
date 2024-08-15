@@ -15,7 +15,7 @@ const Writing = () => {
         <h2>Essays</h2>
         <ol>
           <li>
-            <Link href="/posts/gender-agency-her">Gender, Agency, & Her</Link>
+            <Link href="/posts/her">Gender, Agency, & Her</Link>
           </li>
         </ol>
       </div>
