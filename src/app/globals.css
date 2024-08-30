@@ -81,3 +81,8 @@ figcaption {
   text-align: center;
   margin: 5px 0;
 }
+
+.post-link {
+  color: #000;
+  background-color: #59d0d4;
+}
