@@ -74,3 +74,10 @@ blockquote {
   padding: 0.5em 10px;
   color: #4d4d4d;
 }
+
+figcaption {
+  color: #4d4d4d;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 5px 0;
+}
