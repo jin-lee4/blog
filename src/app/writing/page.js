@@ -23,6 +23,11 @@ const Writing = () => {
         <h2>Reflections</h2>
         <ol>
           <li>
+            <Link href="/posts/summa">
+              Summa
+            </Link>
+          </li>
+          <li>
             <Link href="/posts/dermatologist">
               Existential at the dermatologist
             </Link>
