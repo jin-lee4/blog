@@ -5,62 +5,37 @@ const Now = () => {
     <div className="w-full space-y-6">
       <h1>Now</h1>
       <div className="space-y-2.5 text-justify">
-        <h2>Last updated: August 14, 2024</h2>
+        <h2>Last updated: January 15, 2025</h2>
         <h3>How I'm feeling now</h3>
-        <p>
-          I’m in the midst of a two week lull, in between the end of my summer
-          school semester and a new job. I’m filling my time with updating my
-          personal website/portfolio, building a routine, and staying up late
-          watching movies.
+        <p>I'm starting to feel the urgency of needing to figure out what I want to (more accurately, <i>can</i>) do after graduation, or for the summer, for starters. (If anyone is hiring, please please please). 
         </p>{" "}
         <p>
-          These days, I’m feeling the usual melancholy most of us feel around
-          mid-August. I’ve learned a lot this summer and hope to take this time
-          to reflect and synthesize my experiences into something I can carry
-          with me into the next season. I should also probably clean my
-          keyboard.
+          Lately I'm trying to read more, walk a little longer, and sleep in. I've been thinking about travelling and embodying an abundance mindset. My motto for the last few months has been maximize inside, minimize outside - I think it's been working for me.
         </p>
         <h3>Projects</h3>
         <ol>
+          <li>Writing more. Feeling stuck for the last few months though.</li>
           <li>
-            <Link href="https://github.com/jin-lee4/kg-rag.git" target="_blank">
-              ruleaid
-            </Link>{" "}
-            - A RAG tool to help administrators develop AI policies for their
-            organizations
+            Running my <Link href="https://lu.ma/bv6brssp" target="_blank">
+              critical AI reading group
+            </Link>
           </li>
-          <li>Writing here!</li>
-          <li>
-            Developing a loose HCI reading group curriculum for the fall,
-            hopefully
-          </li>
-          <li>Starting a balcony garden</li>
+          <li>Finishing my book in time for book club</li>
+          <li>Applying for jobs, and consequently, obtaining one</li>
+          <li>Finishing my last class of my degree (!)</li>
         </ol>
-        <h3>Reading list</h3>
+        <h3>Media</h3>
         <ol>
-          <li>Kitchen Confidential by Anthony Bourdain (audiobook)</li>
-          <li>Crip Negativity by J. Logan Smilges</li>
-          <li>12 Bytes by Jeanette Winterson</li>
-          <li>Either/Or by Elif Batuman</li>
-          <li>All About Love by bell hooks</li>
+          <li>The Vegetarian by Han Kang - Reading for book club</li>
+          <li>Either/Or by Elif Batuman - Reading for fun and I'm savoring every word.</li>
+          <li>Notes on a Conditional Form by The 1975 - Perfect January album</li>
+          <li>10 things I hate about you - Rewatched for the first time in years in my Las Vegas hotel room and squealed.</li>
         </ol>
         <h3>Experiments</h3>
         <ol>
           <li>Dutifully going to the gym and running 5-6 days a week</li>
-          <li>Trying recipes focused on eating whole foods</li>
-          <li>
-            Meeting the first Monday of each month with{" "}
-            <Link href="https://matthewjl.xyz/" target="_blank">
-              Matthew
-            </Link>
-            to set goals and reflect
-          </li>
-          <li>Establishing long-term financial investments</li>
-          <li>
-            Watching as many old Hollywood movies as possible (so far, Sabrina
-            is my favorite)
-          </li>
-          <li>Bi-weekly walk and talks around Vancouver</li>
+          <li>Protein-maxxing</li>
+          <li>No buy months</li>
         </ol>
       </div>
     </div>

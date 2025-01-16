@@ -24,7 +24,7 @@ const About = () => {
         <h2>Experiments</h2>
         <ol>
           <li>Walk & Talk Vancouver</li>
-          <li>HCI reading group (coming soon)</li>
+          <li>Critical AI reading group</li>
         </ol>
       </div>
     </div>
