@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "jinlee.space",
+  title: "jinlee.info",
 };
 
 export default function RootLayout({
