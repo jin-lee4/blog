@@ -5,38 +5,32 @@ const Now = () => {
     <div className="w-full space-y-6">
       <h1>Now</h1>
       <div className="space-y-2.5 text-justify">
-        <h2>Last updated: January 15, 2025</h2>
-        <h3>How I'm feeling now</h3>
-        <p>I'm starting to feel the urgency of needing to figure out what I want to (more accurately, <i>can</i>) do after graduation, or for the summer, for starters. (If anyone is hiring, please please please). 
-        </p>{" "}
-        <p>
-          Lately I'm trying to read more, walk a little longer, and sleep in. I've been thinking about travelling and embodying an abundance mindset. My motto for the last few months has been maximize inside, minimize outside - I think it's been working for me.
-        </p>
-        <h3>Projects</h3>
-        <ol>
-          <li>Writing more. Feeling stuck for the last few months though.</li>
-          <li>
-            Running my <Link href="https://lu.ma/bv6brssp" target="_blank">
-              critical AI reading group
-            </Link>
-          </li>
-          <li>Finishing my book in time for book club</li>
-          <li>Applying for jobs, and consequently, obtaining one</li>
-          <li>Finishing my last class of my degree (!)</li>
-        </ol>
-        <h3>Media</h3>
-        <ol>
-          <li>The Vegetarian by Han Kang - Reading for book club</li>
-          <li>Either/Or by Elif Batuman - Reading for fun and I'm savoring every word.</li>
-          <li>Notes on a Conditional Form by The 1975 - Perfect January album</li>
-          <li>10 things I hate about you - Rewatched for the first time in years in my Las Vegas hotel room and squealed.</li>
-        </ol>
-        <h3>Experiments</h3>
-        <ol>
-          <li>Dutifully going to the gym and running 5-6 days a week</li>
-          <li>Protein-maxxing</li>
-          <li>No buy months</li>
-        </ol>
+        <h3>Last updated: April 6, 2025</h3>
+        <h2>Days</h2>
+        <ul>
+          <li>Reading <i>Either/Or</i> by Elif Batuman</li>
+          <li>Reading <i>Love in a Fucked Up World</i> by Dean Spade</li>
+          <li>Coffee-ing</li>
+        </ul>
+        <h2>Weeks</h2>
+        <ul>
+          <li>Looking for a full-time job :(</li>
+          <li>Running - not training for anything, but focusing on 10k+ distances</li>
+        </ul>
+        <h2>Months</h2>
+        <ul>
+          <li>Organizing monthly critical AI reading group</li>
+          <li>Redecorating my room :p</li>
+          <li>Getting through my reading list</li>
+          <li>Finding writing inspiration</li>
+          <li>Attempting no buy months</li>
+        </ul>
+        <h2>Year</h2>
+        <ul>
+          <li>Finishing my Cognitive Systems degree at UBC</li>
+          <li>Scheming up travel plans</li>
+          <li>Walking as much as possible</li>
+        </ul>
       </div>
     </div>
   );

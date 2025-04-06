@@ -6,10 +6,9 @@ const HomeContent = () => {
       <div className="space-y-2.5">
         <h2>Hi, I'm Jin</h2>
         <p>
-          I’m interested in AI alignment, social justice in tech, and community
-          building. You’ll probably find me making playlists or justifying my
-          3rd coffee of the day.{" "}
+          I’m excited by people, executing big ideas, and learning about the human condition. My curiosities have led me down many paths, ranging from AI alignment and critical tech studies to reality TV... {" "}
         </p>
+        <p>In my free time, I like reading self-help books, perfecting playlists, and running outside!</p>
       </div>
       <div className="space-y-2.5">
         <h2>Let's connect!</h2>

@@ -24,22 +24,8 @@ const Writing = () => {
         <ol>
           <li>
             <Link href="/posts/summa">
-              Summa
+              Summa 2024
             </Link>
-          </li>
-          <li>
-            <Link href="/posts/dermatologist">
-              Existential at the dermatologist
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts/what-next">What's next?</Link>
-          </li>
-          <li>
-            <Link href="/posts/myfaucet">My faucet</Link>
-          </li>
-          <li>
-            <Link href="/posts/2024">2024</Link>
           </li>
         </ol>
       </div>
