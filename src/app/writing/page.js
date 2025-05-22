@@ -22,6 +22,11 @@ const Writing = () => {
       <div className="space-y-2.5">
         <h2>Reflections</h2>
         <ol>
+        <li>
+            <Link href="/posts/legacy">
+              On Legacy & B2B SaaS
+            </Link>
+          </li>
           <li>
             <Link href="/posts/summa">
               Summa 2024
