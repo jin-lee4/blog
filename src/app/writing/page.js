@@ -10,7 +10,7 @@ const Writing = () => {
 
   return (
     <div className="w-full space-y-6">
-      <h1>Writing</h1>
+      <h1>Writings</h1>
       <div className="space-y-2.5">
         <h2>Essays</h2>
         <ol>
